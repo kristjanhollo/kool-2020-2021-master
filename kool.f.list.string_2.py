@@ -1,5 +1,3 @@
-print(message) """
-
 guest_list = ["Toomas" , "Peeter" , "Meelis" , "Gustav"]
 print(f"{guest_list[2]} ei saa peole tulla.")
 
