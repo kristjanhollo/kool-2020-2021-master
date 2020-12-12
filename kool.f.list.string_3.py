@@ -1,0 +1,13 @@
+asukohad = ["USA" , "Austraalia" , "Rootsi" , "Soome" , "Kanada"]
+print(asukohad)
+print(sorted(asukohad))
+print(asukohad)
+print(sorted(asukohad, reverse=True))
+asukohad.reverse()
+print(asukohad)
+asukohad.reverse()
+print(asukohad)
+asukohad.sort()
+print(asukohad)
+asukohad.sort(reverse=True)
+print(asukohad)
