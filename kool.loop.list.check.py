@@ -6,4 +6,3 @@ for users in new_users:
         print(f"Please enter new username: {users}")
     else:
         print(f"Username is available: {users}")
-
