@@ -1,9 +1,9 @@
-""" def foo(book):
+# Making a function
+def foo(book: object) -> object:
     print(f"My favorite book is {book.title()}")
 
 
-foo("Lord of the rings") """
-
+foo("Lord of the rings")
 
 """def shirt(size, message):
     print(f"Your t-shirt is {size.upper()} size and {message}.")
@@ -60,7 +60,6 @@ while True:
     print(valmis)
 print("Thank you for answering")"""
 
-
 """ def greet_users(names):
     for name in names:
         print(f"Hello, {name.title()}!")
@@ -94,6 +93,7 @@ empty_nimekiri = []
 show_messages(nimekiri[:], empty_nimekiri)
 show_copy_messages(empty_nimekiri) """
 
+
 def make_car(car, manuf, **information):
     autod = {
         "car": car.title(),
@@ -104,11 +104,8 @@ def make_car(car, manuf, **information):
 
         return autod
 
+
 my_outback = make_car("subaru", "outback", color="red", tow_package=True)
 print(my_outback)
 my_honda = make_car("Accord", "Honda", color="black", year=2008, bigrims=True, ugly=True)
 print(my_honda)
-
-
-
-
