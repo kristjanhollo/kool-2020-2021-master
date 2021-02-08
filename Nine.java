@@ -67,9 +67,9 @@ public class Nine {
 
 
         if (start.equals("N")) {
-        } else if (start.equals("Y")) {
+        } else if (start.equals("Y")){
             System.out.printf("\nMr.Bond rolled %d ", cpuDice);
-            if (cpuDice > dice) {
+            if (cpuDice >= dice) {
                 System.out.printf("\nMr.Bond ends up with %d ", cpuDice);
             } else if (cpuDice <= 4) {
                 System.out.printf("\nMr.Bond rolls again %d", cpuDiceTwo);
@@ -86,7 +86,7 @@ public class Nine {
             } else if (dice > cpuDice) {
                 System.out.println("\nCongratulations you win!");
             } else {
-                System.out.println("\nSadly you lose!");
+                System.out.println("\nIt's a tie!");
             }
 
         }
